@@ -1,5 +1,21 @@
-#!/usr/bin/env python
-# coding: utf-8
+Number Guessing Game
+
+This Python application offers a fun and engaging number guessing experience. Test your skills against the computer, which will pick a random number between 1 and 200. You'll have 6 attempts to guess the correct number!
+
+Features:
+*Clear instructions: The program guides you through the gameplay.
+*User-friendly interface: Interact with the game by entering your name and guesses.
+*Informative feedback: Receive hints about whether your guess is too high, too low, or correct.
+*Multiple rounds: Play as many rounds as you like!
+
+How to Play:
+1.The program will ask for your name.
+2.You'll be informed that the computer has chosen a number between 1 and 200.
+3.Enter your guesses one at a time.
+4.The program will provide feedback on each guess, indicating if it's too high, too low, or correct.
+5.You have a maximum of 6 attempts.
+6.If you guess the number correctly, you'll be congratulated! Otherwise, the computer will reveal the secret number.
+7.The program will ask if you'd like to play another round.
 
 # In[ ]:
 
