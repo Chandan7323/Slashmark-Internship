@@ -1,3 +1,25 @@
+Secure Password Generator
+
+This Python script generates strong, random passwords that meet security best practices.
+
+Features:
+*Generates multiple passwords at once (specify the number)
+*Configurable password length (minimum 3 characters)
+*Ensures passwords include:
+   *Lowercase letters
+   *Numbers (at least 1, randomly placed)
+   *Uppercase letters (at least 1, randomly placed)
+
+How to Use:
+1.Clone or download the repository.
+2.Open a terminal or command prompt and navigate to the directory containing the code (password_generator.py).
+3.Run the script using python password_generator.py.
+4.Enter the desired number of passwords to generate.
+5.For each password, specify a length greater than or equal to 3.
+6.The script will display the generated passwords, each containing lowercase letters, numbers, and an uppercase letter.
+
+
+
 import random
 
 def generate_password(length):
