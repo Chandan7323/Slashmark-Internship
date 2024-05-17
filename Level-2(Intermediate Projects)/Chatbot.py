@@ -1,3 +1,21 @@
+ECHOBOT : A Simple Chatbot for Daily Interactions
+                          
+EchoBot is a basic chatbot designed to have simple conversations and respond to user queries related to daily life. It's built using Python and can handle greetings, answer questions about itself, and engage in casual conversations.
+
+Features:
+
+Greetings: Responds to greetings like "hi," "hello," and "hey."
+Self Introduction: Provides information about itself when asked "what is your name" or "who are you."
+Capabilities: Explains its abilities when prompted with "what can you do."
+Daily Life Interactions: Handles various daily life conversations, including:
+Responding to "how was your day"
+Explaining what it's working on for "what are you working on"
+Offering interesting facts about weather or cinema for "what's the weather like" or "recommend a movie" (no real-time data access)
+Suggesting recipe searches for "what's for dinner tonight" (requires ingredient information from user)
+Providing relaxation tips for "feeling overwhelmed today" (link to external resource needed)
+Offering to break down tasks or search for instructions for "need help with a task" (can't physically complete tasks)  
+
+
 def greet(user_input):
   """Greets the user based on input"""
   if user_input.lower() in ["hi", "hello", "hey"]:
