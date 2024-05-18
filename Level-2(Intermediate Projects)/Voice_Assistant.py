@@ -1,3 +1,22 @@
+This Python Voice Assistant is a script that leverages speech recognition and text-to-speech capabilities to perform various tasks based on voice commands. The assistant can open websites, provide current time, fetch weather information, and play music from a specified directory. It uses several Python libraries including speech_recognition for capturing and interpreting speech, pyttsx3 for text-to-speech conversion, and requests for making HTTP requests to fetch weather data.
+                                                                                                                                                                                                                                                                                                                                                                                            
+Features :
+* Voice Recognition: Captures and processes voice commands using Google's Speech Recognition API.
+* Text-to-Speech: Provides verbal responses using the pyttsx3 library.
+* Web Browsing: Opens specified websites such as YouTube and Google.
+* Time Reporting: Tells the current time.
+* Weather Information: Fetches and announces the weather for a specified city using the OpenWeatherMap API.
+* Music Playback: Plays music from a user-defined directory on the local machine.  
+
+Prerequisites:
+
+1.Python 3.x
+2.SpeechRecognition library
+3.Pyttsx3 library
+4.Pyaudio library
+5.Requests library
+                                                                                                                                                                                                                                                                                                                                                                                            
+
 import speech_recognition as sr
 import pyttsx3
 import webbrowser
